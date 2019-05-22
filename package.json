@@ -1,0 +1,48 @@
+{
+  "name": "@inncode/geox",
+  "version": "1.0.0",
+  "description": "Library for geolocation tools",
+  "main": "index.js",
+  "bin": {
+    "geox": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inncode/geox.git"
+  },
+  "keywords": [
+    "geolocation",
+    "ip",
+    "location",
+    "trace",
+    "osm",
+    "openstreetmaps",
+    "node",
+    "cli",
+    "utils",
+    "tools"
+  ],
+  "author": "Hiago Silva Souza <hiasilva@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inncode/geox/issues"
+  },
+  "homepage": "https://github.com/inncode/geox#readme",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^0.5.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "get-installed-path": "^4.0.8",
+    "inquirer": "^6.3.1",
+    "minimist": "^1.2.0",
+    "node-wget": "^0.4.3",
+    "requestify": "^0.2.5",
+    "targz": "^1.0.1"
+  }
+}

@@ -1,0 +1,6 @@
+# Folders
+node_modules/
+
+# Files
+*.tar.gz
+package-lock.json
