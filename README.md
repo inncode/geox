@@ -1,14 +1,29 @@
-# GEOX
-This is a tool to facilitate finding positions of IP addresses, address of geopositions and geopositions of addresses.
+# GeoX
+Tools for geolocation <3
+
+## Resources
+
+    -> Retrieves address from geographic points.
+    -> Retrieves geographical points from an address.
+    -> Retrieves geographical points from an ip.
+    -> Retrieves address from an ip.
 
 ## Installing
-To install the library, simply use the package manager npm and enter the command: `npm install -g @inncode/geox`
+To install the library, simply use the package manager npm and enter the command
+
+```sh
+npm install -g @inncode/geox
+```
 
 ## Using
-To use GEOX simply enter the `geox` command on your command line and follow the instructions.
+To use GeoX, simply type the command below into your terminal and follow the instructions.
+
+```sh
+geox
+```
 
 ## Development
-To contribute to the project, just make a fork of this repository, after that make the fork clone, run the `npm install` command. After that make your changes, run `npm link`, test your modifications and commit and request the pull request.
+To contribute to the project, simply make a repository fork, clone the project and run the `npm install` command. After that, you can make the changes that you deem necessary to execute the `npm link`, and then do the tests using the` geox` command, all right commit your changes and request a pull request.
 
 Author
 ----
