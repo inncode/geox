@@ -15,15 +15,17 @@ const run = () => {
         if(result.options !== 'exit') {
             console.log("");
             inquirer[result.options]().then((r) => {
+                console.log("");
                 run();
             }).catch((error) => {
                 console.log(chalk.red('Error: ', error));
+                console.log("");
                 run();
             });
-            console.log("");
         }
     }).catch((error) => {
         console.log(chalk.red('Error: ', error));
+        console.log("");
         run();
     });
 }
