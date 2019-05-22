@@ -1,5 +1,5 @@
 # GEOX
-This is a tool to facilitate finding positions of IP addresses, address positions and addresses.
+This is a tool to facilitate finding positions of IP addresses, address of geopositions and geopositions of addresses.
 
 ## Installing
 To install the library, simply use the package manager npm and enter the command: `npm install -g @inncode/geox`
