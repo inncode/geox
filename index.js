@@ -4,7 +4,7 @@ const clear       = require('clear');
 const figlet      = require('figlet');
 const inquirer    = require('./lib/inquirer');
 const utils    = require('./lib/utils');
-const package = require('package.json');
+const package = require('./package.json');
 
 clear();
 console.log(chalk.yellow(figlet.textSync('GeoX', { horizontalLayout: 'full' })));
