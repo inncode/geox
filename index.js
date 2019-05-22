@@ -13,12 +13,14 @@ console.log(chalk.red("Version " + package.version));
 const run = () => {
     inquirer.disposeActions().then((result) => {
         if(result.options !== 'exit') {
+            console.log("");
             inquirer[result.options]().then((r) => {
                 run();
             }).catch((error) => {
                 console.log(chalk.red('Error: ', error));
                 run();
             });
+            console.log("");
         }
     }).catch((error) => {
         console.log(chalk.red('Error: ', error));
