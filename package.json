@@ -1,6 +1,6 @@
 {
   "name": "@inncode/geox",
-  "version": "1.0.11",
+  "version": "1.0.10",
   "description": "Tools for geolocation <3",
   "main": "index.js",
   "bin": {
