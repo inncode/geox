@@ -1,6 +1,10 @@
 # GeoX
 Tools for geolocation <3
 
+[![CircleCI branch](https://img.shields.io/circleci/project/github/inncode/geox/master.svg?label=circleci)](https://circleci.com/gh/inncode/geox) [![Dependency Status](https://david-dm.org/inncode/geox.svg)](https://david-dm.org/inncode/geox) [![devDependency Status](https://david-dm.org/inncode/geox/dev-status.svg)](https://david-dm.org/inncode/geox?type=dev)
+
+[![License](https://img.shields.io/npm/l/@inncode/geox.svg)](/LICENSE) 
+
 ## Resources
 
     -> Retrieves address from geographic points.
