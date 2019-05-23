@@ -7,3 +7,7 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
+  deploy:
+    steps:
+      - run: npm publish
+    
