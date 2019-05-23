@@ -16,9 +16,7 @@ jobs:
           command: npm test
 
   deploy:
-    <<: *defaults  
-    - attach_workspace:
-        at: ~/repo
+    <<: *defaults
     - run:
         name: Authenticate with registry
         command: echo "//registry.npmjs.org/:_authToken=$npm_TOKEN" > ~/repo/.npmrc
